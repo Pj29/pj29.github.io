@@ -1,0 +1,9 @@
+.center {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightslategray;
+}
+
+.static-bg {
+    background-color: #97ABB1;
+}
