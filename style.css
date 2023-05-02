@@ -1,9 +1,9 @@
-.center {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    background-color: lightslategray;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: papayawhip;
 }
 
-.static-bg {
-    background-color: #97ABB1;
+.logo {
+    text-align: center;
 }
