@@ -5,5 +5,77 @@ body {
 }
 
 .logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 68px;
+    color:lightslategrey;
     text-align: center;
+    margin: 0;
+}
+
+header {
+    height: 140px;
+    background-color: darkgray;
+}
+
+header h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightblue;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+section {
+    padding: 0 25%;
+    margin: 80px 0;
+}
+
+h1, h2, h3 {
+    font-family:'Courier New', Courier, monospace;
+    color: darkgray;
+    text-align: center;
+    font-weight: 500;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+
+p, li {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+a:link { color:purple; }
+a:visited { color: green; }
+a:hover { color:darkgrey; }
+a:active { color:darkgrey; }
+a:hover {
+    text-decoration: underline;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.border-top {
+    padding-top: 80px;
+    border-top: 2px solid #403933;
 }
