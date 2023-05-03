@@ -7,7 +7,7 @@ body {
 .logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 68px;
-    color:lightslategrey;
+    color:#020918;
     text-align: center;
     margin: 0;
 }
@@ -19,7 +19,7 @@ header {
 
 header h2 {
     font-family: 'Courier New', Courier, monospace;
-    color: lightblue;
+    color: #010613;
     margin: 0px;
     font-size: 20px;
     text-align: center;
