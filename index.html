@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="./styles.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -24,38 +25,65 @@
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bg-dark">
         <a class="navbar-brand" href="#">Peter's Portfolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/Pj29" target="_blank"
-                ><i class="bi bi-github"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="https://www.linkedin.com/in/peter-a-jones/"
-                target="_blank"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mailto:pj96765@gmail.com"
-                ><i class="bi bi-envelope-fill"></i
-              ></a>
-            </li>
-          </ul>
+
+        <!-- Desktop Social Icons -->
+        <div class="d-none d-lg-flex ms-auto">
+          <a class="nav-link" href="https://github.com/Pj29" target="_blank"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a
+            class="nav-link"
+            href="https://www.linkedin.com/in/peter-a-jones/"
+            target="_blank"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a class="nav-link" href="mailto:pj96765@gmail.com"
+            ><i class="bi bi-envelope-fill"></i
+          ></a>
+        </div>
+
+        <!-- Mobile Dropdown -->
+        <div class="d-lg-none">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/Pj29"
+                      target="_blank"
+                      ><i class="bi bi-github"></i> GitHub</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.linkedin.com/in/peter-a-jones/"
+                      target="_blank"
+                      ><i class="bi bi-linkedin"></i> LinkedIn</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="mailto:pj96765@gmail.com"
+                      ><i class="bi bi-envelope-fill"></i> Email</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
