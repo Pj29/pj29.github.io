@@ -6,13 +6,14 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
+      <Head>
         <title>Jane Doe - Full-Stack Developer</title>
         <meta name="description" content="Portfolio of Jane Doe, Full-Stack Developer" />
         <link rel="icon" href="/favicon.ico" />
-      
+      </Head>
 
       <header className="sticky top-0 z-10 bg-white shadow-sm">
-        <div className="container mx-auto flex items-center justify-between py-4">
+        <div className="container mx-auto flex items-center justify-between py-4 px-4">
           <h1 className="text-2xl font-bold">Jane Doe</h1>
           <nav className="flex items-center gap-4 text-sm">
             <a href="#about" className="hover:underline underline-offset-4">About</a>
@@ -23,7 +24,7 @@ export default function Home() {
       </header>
 
       <main className="flex-1">
-        <section id="hero" className="container mx-auto py-24 sm:py-32">
+        <section id="hero" className="container mx-auto py-24 sm:py-32 px-4">
           <div className="flex flex-col items-center text-center gap-4">
             <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
               Full-Stack Developer
@@ -43,7 +44,7 @@ export default function Home() {
         </section>
 
         <section id="about" className="bg-gray-50 py-24 sm:py-32">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">About Me</h2>
             <div className="grid gap-8 lg:grid-cols-2">
               <div className="flex flex-col gap-4">
@@ -73,7 +74,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="projects" className="container mx-auto py-24 sm:py-32">
+        <section id="projects" className="container mx-auto py-24 sm:py-32 px-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Featured Projects</h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {[1, 2, 3].map((project) => (
@@ -102,7 +103,7 @@ export default function Home() {
         </section>
 
         <section id="contact" className="bg-gray-50 py-24 sm:py-32">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Get in Touch</h2>
             <div className="grid gap-8 lg:grid-cols-2">
               <div className="flex flex-col gap-4">
@@ -141,7 +142,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t">
-        <div className="container mx-auto flex flex-col gap-2 py-4 text-center sm:flex-row sm:justify-between sm:text-left">
+        <div className="container mx-auto flex flex-col gap-2 py-4 px-4 text-center sm:flex-row sm:justify-between sm:text-left">
           <p className="text-sm text-gray-600">© 2023 Jane Doe. All rights reserved.</p>
           <p className="text-sm text-gray-600">
             Built with <a href="https://nextjs.org" className="underline underline-offset-4">Next.js</a> and <a href="https://tailwindcss.com" className="underline underline-offset-4">Tailwind CSS</a>
