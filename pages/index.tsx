@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 
 export default function Home() {
   return (
@@ -91,7 +90,7 @@ export default function Home() {
                 <div className="flex gap-2 mt-auto pt-4">
                   <a href="#" className="text-blue-600 hover:underline">View Project</a>
                   <a href="#" className="text-blue-600 hover:underline flex items-center">
-                    <Github className="mr-1 h-4 w-4" />
+                   
                     GitHub
                   </a>
                 </div>
@@ -110,19 +109,19 @@ export default function Home() {
                 </p>
                 <div className="flex gap-4">
                   <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
-                    <Github className="h-6 w-6" />
+                    
                     <span className="sr-only">GitHub</span>
                   </a>
                   <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
-                    <Linkedin className="h-6 w-6" />
+                   
                     <span className="sr-only">LinkedIn</span>
                   </a>
                   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
-                    <Twitter className="h-6 w-6" />
+              
                     <span className="sr-only">Twitter</span>
                   </a>
                   <a href="mailto:jane.doe@example.com" className="text-gray-600 hover:text-gray-900">
-                    <Mail className="h-6 w-6" />
+                   
                     <span className="sr-only">Email</span>
                   </a>
                 </div>
