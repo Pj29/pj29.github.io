@@ -7,14 +7,14 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <title>Jane Doe - Full-Stack Developer</title>
-        <meta name="description" content="Portfolio of Jane Doe, Full-Stack Developer" />
+        <title>Peter Jones - Full-Stack Developer</title>
+        <meta name="description" content="Portfolio of Peter Jones, Full-Stack Developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className="sticky top-0 z-10 bg-white shadow-sm">
         <div className="container mx-auto flex items-center justify-between py-4 px-4">
-          <h1 className="text-2xl font-bold">Jane Doe</h1>
+          <h1 className="text-2xl font-bold">Peter Jones</h1>
           <nav className="flex items-center gap-4 text-sm">
             <a href="#about" className="hover:underline underline-offset-4">About</a>
             <a href="#projects" className="hover:underline underline-offset-4">Projects</a>
@@ -49,10 +49,10 @@ export default function Home() {
             <div className="grid gap-8 lg:grid-cols-2">
               <div className="flex flex-col gap-4">
                 <p className="text-gray-600">
-                  With over 5 years of experience in web development, I specialize in building robust and scalable applications using modern technologies. My expertise spans both front-end and back-end development, with a strong focus on JavaScript ecosystems.
+                  I specialize in building robust and scalable applications using modern technologies. My expertise spans both front-end and back-end development, with a strong focus on JavaScript ecosystems.
                 </p>
                 <p className="text-gray-600">
-                  I'm passionate about clean code, performance optimization, and creating intuitive user experiences. When I'm not coding, you can find me contributing to open-source projects or mentoring aspiring developers.
+                  I'm passionate about clean code, performance optimization, and creating intuitive user experiences. When I'm not coding, you can find me outdoors.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
@@ -62,12 +62,8 @@ export default function Home() {
                   <li>React</li>
                   <li>Node.js</li>
                   <li>TypeScript</li>
-                  <li>GraphQL</li>
                   <li>Next.js</li>
                   <li>PostgreSQL</li>
-                  <li>MongoDB</li>
-                  <li>Docker</li>
-                  <li>AWS</li>
                 </ul>
               </div>
             </div>
@@ -111,11 +107,11 @@ export default function Home() {
                   I'm always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out!
                 </p>
                 <div className="flex gap-4">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+                  <a href="https://github.com/Pj29" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                     <Github className="h-6 w-6" />
                     <span className="sr-only">GitHub</span>
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+                  <a href="https://www.linkedin.com/in/peter-a-jones/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                     <Linkedin className="h-6 w-6" />
                     <span className="sr-only">LinkedIn</span>
                   </a>
@@ -123,7 +119,7 @@ export default function Home() {
                     <Twitter className="h-6 w-6" />
                     <span className="sr-only">Twitter</span>
                   </a>
-                  <a href="mailto:jane.doe@example.com" className="text-gray-600 hover:text-gray-900">
+                  <a href="mailto:pjxcvi@proton.me" className="text-gray-600 hover:text-gray-900">
                     <Mail className="h-6 w-6" />
                     <span className="sr-only">Email</span>
                   </a>
