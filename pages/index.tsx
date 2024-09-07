@@ -125,7 +125,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <form className="flex flex-col gap-4" name="contact" method="POST" data-netlify="true">
+              <form className="flex flex-col gap-4" action="https://formspree.io/f/myzgvbly" name="contact" method="POST">
                 <input type="hidden" name="form-name" value="contact" />
                 <input className="border rounded-md px-3 py-2" type="text" name="name" placeholder="Name" required />
                 <input className="border rounded-md px-3 py-2" type="email" name="email" placeholder="Email" required />
@@ -139,7 +139,7 @@ export default function Home() {
 
       <footer className="border-t">
         <div className="container mx-auto flex flex-col gap-2 py-4 px-4 text-center sm:flex-row sm:justify-between sm:text-left">
-          <p className="text-sm text-gray-600">© 2023 Jane Doe. All rights reserved.</p>
+          <p className="text-sm text-gray-600">© 2024 Peter Jones. All rights reserved.</p>
           <p className="text-sm text-gray-600">
             Built with <a href="https://nextjs.org" className="underline underline-offset-4">Next.js</a> and <a href="https://tailwindcss.com" className="underline underline-offset-4">Tailwind CSS</a>
           </p>
